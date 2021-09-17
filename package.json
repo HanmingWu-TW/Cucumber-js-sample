@@ -1,0 +1,33 @@
+{
+  "name": "cucumber-js-sample",
+  "version": "1.0.0",
+  "description": "A sample for cucumber-js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HanmingWu-TW/Cucumber-js-sample.git"
+  },
+  "keywords": [
+    "cucumber"
+  ],
+  "author": "Hanming Wu",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "chai": "^4.2.0",
+    "cucumber-html-reporter": "^5.2.0",
+    "date-utils": "^1.2.21",
+    "json2xls": "^0.1.2",
+    "mysql": "^2.17.1",
+    "node-xlsx": "^0.17.1",
+    "request": "^2.88.0",
+    "requestretry": "^4.1.2"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HanmingWu-TW/Cucumber-js-sample/issues"
+  },
+  "homepage": "https://github.com/HanmingWu-TW/Cucumber-js-sample#readme"
+}
