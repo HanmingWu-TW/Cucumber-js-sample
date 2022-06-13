@@ -26,7 +26,7 @@ pipeline {
             steps {
                 catchError (buildResult: 'UNSTABLE', stageResult: 'FAILURE') {
                     nodejs(nodeJSInstallationName: 'node') {
-                        sh './node_modules/.bin/cucumber-js --tags "@test_all" -f json:UserReport.json --require ./features'
+                        sh './node_modules/.bin/cucumber-js --tags "@test_all" -f json:report.json --require ./features'
                     }
                 }
             }
