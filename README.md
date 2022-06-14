@@ -13,7 +13,7 @@ features （主要代码）
 npm i
 ```
 
-## 用户中心测试 ##
+## 测试执行 ##
 ```
 ./node_modules/.bin/cucumber-js --tags "@test_all" -f json:report.json --require ./features
 ```
